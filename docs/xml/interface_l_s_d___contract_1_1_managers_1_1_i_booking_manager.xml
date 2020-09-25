@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager" kind="interface" language="C#" prot="public">
+    <compoundname>LSD_Contract::Managers::IBookingManager</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager_1a636e7cb2811961c2bfc81e46c2677049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" kindref="compound">BookingDetail</ref></type>
+        <definition>BookingDetail LSD_Contract.Managers.IBookingManager.MakeBooking</definition>
+        <argsstring>(BookingDetail booking)</argsstring>
+        <name>MakeBooking</name>
+        <param>
+          <type><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" kindref="compound">BookingDetail</ref></type>
+          <declname>booking</declname>
+        </param>
+        <briefdescription>
+<para>Make a booking with the provided booking details. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>booking</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The booking you wish to make.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>BookingDetail of the created booking.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Managers/IBookingManager.cs" line="18" column="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An interface for all Flight related endpoints. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Managers/IBookingManager.cs" line="11" column="15" bodyfile="Managers/IBookingManager.cs" bodystart="12" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager_1a636e7cb2811961c2bfc81e46c2677049" prot="public" virt="non-virtual"><scope>LSD_Contract::Managers::IBookingManager</scope><name>MakeBooking</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

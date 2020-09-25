@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_15a9ab385fae7ab291477cfa29e43ded" kind="dir">
+    <compoundname>Managers</compoundname>
+    <innerfile refid="_i_booking_manager_8cs">IBookingManager.cs</innerfile>
+    <innerfile refid="_i_flight_manager_8cs">IFlightManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Managers/"/>
+  </compounddef>
+</doxygen>

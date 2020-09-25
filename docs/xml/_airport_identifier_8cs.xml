@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_airport_identifier_8cs" kind="file" language="C#">
+    <compoundname>AirportIdentifier.cs</compoundname>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" prot="public">LSD_Contract::DTO::AirportIdentifier</innerclass>
+    <innernamespace refid="namespace_l_s_d___contract">LSD_Contract</innernamespace>
+    <innernamespace refid="namespace_l_s_d___contract_1_1_d_t_o">LSD_Contract::DTO</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_s_d___contract_1_1_d_t_o" kindref="compound">LSD_Contract.DTO</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" kindref="compound">AirportIdentifier</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a906dc2c728d4bd24b7b899321e0a3e81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a906dc2c728d4bd24b7b899321e0a3e81" kindref="member">IATACode</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a21f2acd24240a377ebcaaa596db2e9c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a21f2acd24240a377ebcaaa596db2e9c9" kindref="member">AirportIdentifier</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>iataCode)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a906dc2c728d4bd24b7b899321e0a3e81" kindref="member">IATACode</ref><sp/>=<sp/>iataCode;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DTO/AirportIdentifier.cs"/>
+  </compounddef>
+</doxygen>

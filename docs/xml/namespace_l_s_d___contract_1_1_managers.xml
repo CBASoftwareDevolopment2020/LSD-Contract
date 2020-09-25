@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_l_s_d___contract_1_1_managers" kind="namespace" language="C#">
+    <compoundname>LSD_Contract::Managers</compoundname>
+    <innerclass refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager" prot="public">LSD_Contract::Managers::IBookingManager</innerclass>
+    <innerclass refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager" prot="public">LSD_Contract::Managers::IFlightManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Managers/IBookingManager.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

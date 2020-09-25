@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" kind="class" language="C#" prot="public">
+    <compoundname>LSD_Contract::DTO::PassengerDetail</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.PassengerDetail.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Passenger name is in all capital letters, as written in their passport </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/PassengerDetail.cs" line="12" column="23" bodyfile="DTO/PassengerDetail.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a910824671504ac5b26b8553d0d792f6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.PassengerDetail.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+<para>Email of the passenger. Must be formatted like a valid email. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/PassengerDetail.cs" line="16" column="23" bodyfile="DTO/PassengerDetail.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1ac02c5db553698cafb5059b399f8e3471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LSD_Contract.DTO.PassengerDetail.PassengerDetail</definition>
+        <argsstring>(string name, string email)</argsstring>
+        <name>PassengerDetail</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to create an instance of a detailed passenger </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/PassengerDetail.cs" line="22" column="16" bodyfile="DTO/PassengerDetail.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DTO/PassengerDetail.cs" line="7" column="5" bodyfile="DTO/PassengerDetail.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a910824671504ac5b26b8553d0d792f6d" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::PassengerDetail</scope><name>Email</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::PassengerDetail</scope><name>Name</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1ac02c5db553698cafb5059b399f8e3471" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::PassengerDetail</scope><name>PassengerDetail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

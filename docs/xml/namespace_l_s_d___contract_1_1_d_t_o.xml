@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_l_s_d___contract_1_1_d_t_o" kind="namespace" language="C#">
+    <compoundname>LSD_Contract::DTO</compoundname>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail" prot="public">LSD_Contract::DTO::AirportDetail</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" prot="public">LSD_Contract::DTO::AirportIdentifier</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" prot="public">LSD_Contract::DTO::BookingDetail</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier" prot="public">LSD_Contract::DTO::BookingIdentifier</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" prot="public">LSD_Contract::DTO::CarrierIdentifier</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail" prot="public">LSD_Contract::DTO::FlightDetail</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier" prot="public">LSD_Contract::DTO::FlightIdentifier</innerclass>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" prot="public">LSD_Contract::DTO::PassengerDetail</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DTO/AirportDetail.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

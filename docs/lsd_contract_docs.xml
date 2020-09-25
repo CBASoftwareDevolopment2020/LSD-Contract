@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LSD_Contract</name>
+    </assembly>
+    <members>
+        <member name="T:LSD_Contract.DTO.AirportDetail">
+            <summary>
+            AirportDTO with all attributes
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.AirportDetail.TimeZone">
+            <summary>
+            Timezone based on GMT values
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.AirportDetail.#ctor(System.Int32,System.String)">
+            <summary>
+            The constructor to create an instance of AirportDetail
+            </summary>
+            <param name="timeZone"><inheritdoc cref="P:LSD_Contract.DTO.AirportDetail.TimeZone"/></param>
+            <param name="iataCode"><inheritdoc cref="!:iataCode"/></param>
+        </member>
+        <member name="T:LSD_Contract.DTO.AirportIdentifier">
+            <summary>
+            Class used to identify specific Airports
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.AirportIdentifier.IATACode">
+            <summary>
+            Airport IATACode is identified by three letters, followed by three digits.
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.AirportIdentifier.#ctor(System.String)">
+            <summary>
+            Constructor for AirportIdentifier 
+            </summary>
+            <param name="iataCode"><inheritdoc cref="P:LSD_Contract.DTO.AirportIdentifier.IATACode"/></param>
+        </member>
+        <member name="T:LSD_Contract.DTO.BookingDetail">
+            <summary>
+            Class for creating an instance of a detailed booking.
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.BookingDetail.PassengerNameRecord">
+            <summary>
+            Single unique value to identify all passengers associated to the booking. It should consist of six alphanumeric characters and the first can't be a number.
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.BookingDetail.ETicketIdentification">
+            <summary>
+            Can be either credit card number or frequent flyer number.
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.BookingDetail.Passengers">
+            <summary>
+            A list of passengers associated with the booking
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.BookingDetail.#ctor(System.String,System.String,System.Collections.Generic.ICollection{LSD_Contract.DTO.PassengerDetail},System.Int64)">
+            <summary>
+            Constructor to create an instance of a detailed booking.
+            </summary>
+            <param name="passengerNameRecord"><inheritdoc cref="P:LSD_Contract.DTO.BookingDetail.PassengerNameRecord"/></param>
+            <param name="eTicketIdentification"><inheritdoc cref="P:LSD_Contract.DTO.BookingDetail.ETicketIdentification"/></param>
+            <param name="passengers"><inheritdoc cref="P:LSD_Contract.DTO.BookingDetail.Passengers"/></param>
+            <param name="id"><inheritdoc cref="!:id"/></param>
+        </member>
+        <member name="T:LSD_Contract.DTO.BookingIdentifier">
+            <summary>
+            Class used to identify specific Bookings
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.BookingIdentifier.Id">
+            <summary>
+            The unique Id of the booking
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.BookingIdentifier.#ctor(System.Int64)">
+            <summary>
+            Constructor to create a specific booking identifier.
+            </summary>
+            <param name="id"><inheritdoc cref="P:LSD_Contract.DTO.BookingIdentifier.Id"/></param>
+        </member>
+        <member name="T:LSD_Contract.DTO.CarrierIdentifier">
+            <summary>
+            Class used to identify specific carriers
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.CarrierIdentifier.IATACode">
+            <summary>
+            Two letter code used to identify Carriers
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.CarrierIdentifier.#ctor(System.String)">
+            <summary>
+            Class used to identify specific carriers
+            </summary>
+            <param name="iataCode"><inheritdoc cref="P:LSD_Contract.DTO.CarrierIdentifier.IATACode"/></param>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightDetail.DepartureTime">
+            <summary>
+            Departure datetime of the flight
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightDetail.ArrivalTime">
+            <summary>
+            Arrival datetime of the flight
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightDetail.SeatCount">
+            <summary>
+            The number of available seats on the flight
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightDetail.Price">
+            <summary>
+            Price in euros
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightDetail.GetFlightNumber">
+            <summary>
+            Returns the full code used to identify a Flight. It consists of the carrier code followed by three digits.
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.FlightDetail.#ctor(System.DateTime,System.DateTime,System.Int32,System.Int32,System.String,LSD_Contract.DTO.CarrierIdentifier)">
+            <summary>
+            An instance of the flight
+            </summary>
+            <param name="departureTime"><inheritdoc cref="P:LSD_Contract.DTO.FlightDetail.DepartureTime"/></param>
+            <param name="arrivalTime"><inheritdoc cref="P:LSD_Contract.DTO.FlightDetail.ArrivalTime"/></param>
+            <param name="seatCount"><inheritdoc cref="P:LSD_Contract.DTO.FlightDetail.SeatCount"/></param>
+            <param name="price"><inheritdoc cref="P:LSD_Contract.DTO.FlightDetail.Price"/></param>
+            <param name="flightNumber"><inheritdoc cref="!:flightNumber"/></param>
+            <param name="flightCarrierIdentifier"><inheritdoc cref="!:flightCarrierIdentifier"/></param>
+        </member>
+        <member name="T:LSD_Contract.DTO.FlightIdentifier">
+            <summary>
+            Class used to identify unique flights
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightIdentifier.FlightCarrierIdentifier">
+            <summary>
+            flightCarrierIdentifier
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.FlightIdentifier.FlightNumber">
+            <summary>
+            Unique identifier number of the flight
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.FlightIdentifier.#ctor(System.String,LSD_Contract.DTO.CarrierIdentifier)">
+            <summary>
+            Used to identify unique flights
+            </summary>
+            <param name="flightNumber">A unique number used to identify flights</param>
+            <param name="flightCarrierIdentifier">The carriers unique identifier</param>
+        </member>
+        <member name="P:LSD_Contract.DTO.PassengerDetail.Name">
+            <summary>
+            Passenger name is in all capital letters, as written in their passport
+            </summary>
+        </member>
+        <member name="P:LSD_Contract.DTO.PassengerDetail.Email">
+            <summary>
+            Email of the passenger. Must be formatted like a valid email.
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.DTO.PassengerDetail.#ctor(System.String,System.String)">
+            <summary>
+            Constructor to create an instance of a detailed passenger
+            </summary>
+            <param name="name"><inheritdoc cref="P:LSD_Contract.DTO.PassengerDetail.Name"/></param>
+            <param name="email"><inheritdoc cref="P:LSD_Contract.DTO.PassengerDetail.Email"/></param>
+        </member>
+        <member name="T:LSD_Contract.Managers.IBookingManager">
+            <summary>
+            An interface for all Flight related endpoints.
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.Managers.IBookingManager.MakeBooking(LSD_Contract.DTO.BookingDetail)">
+            <summary>
+            Make a booking with the provided booking details.
+            </summary>
+            <param name="booking">The booking you wish to make.</param>
+            <returns>BookingDetail of the created booking.</returns>
+        </member>
+        <member name="T:LSD_Contract.Managers.IFlightManager">
+            <summary>
+            An interface for all Flight related endpoints.
+            </summary>
+        </member>
+        <member name="M:LSD_Contract.Managers.IFlightManager.GetFlightDetails(System.Collections.Generic.ICollection{LSD_Contract.DTO.FlightIdentifier})">
+            <summary>
+            Get a list of flight details.
+            </summary>
+            <param name="flights">The list of flights you wish to get details from</param>
+            <returns>ICollection of FlightDetails</returns>
+        </member>
+    </members>
+</doc>

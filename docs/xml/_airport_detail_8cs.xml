@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_airport_detail_8cs" kind="file" language="C#">
+    <compoundname>AirportDetail.cs</compoundname>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail" prot="public">LSD_Contract::DTO::AirportDetail</innerclass>
+    <innernamespace refid="namespace_l_s_d___contract">LSD_Contract</innernamespace>
+    <innernamespace refid="namespace_l_s_d___contract_1_1_d_t_o">LSD_Contract::DTO</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_l_s_d___contract_1_1_d_t_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_s_d___contract_1_1_d_t_o" kindref="compound">LSD_Contract.DTO</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail" kindref="compound">AirportDetail</ref><sp/>:<sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" kindref="compound">AirportIdentifier</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail_1a5f12f1b1fbb63ab2b34a4bb735293fc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail_1a5f12f1b1fbb63ab2b34a4bb735293fc4" kindref="member">TimeZone</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail_1ac63d547dd08bd03999ec4e9782c86d06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail_1ac63d547dd08bd03999ec4e9782c86d06" kindref="member">AirportDetail</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeZone,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>iataCode)<sp/>:<sp/>base(iataCode)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail_1a5f12f1b1fbb63ab2b34a4bb735293fc4" kindref="member">TimeZone</ref><sp/>=<sp/>timeZone;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DTO/AirportDetail.cs"/>
+  </compounddef>
+</doxygen>

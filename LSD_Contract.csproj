@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>docs\lsd_contract_docs.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,5 +14,6 @@
   <ItemGroup>
     <Folder Include="ETO\" />
   </ItemGroup>
+
 
 </Project>

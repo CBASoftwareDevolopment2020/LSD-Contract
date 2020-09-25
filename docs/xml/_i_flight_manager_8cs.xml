@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_i_flight_manager_8cs" kind="file" language="C#">
+    <compoundname>IFlightManager.cs</compoundname>
+    <innerclass refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager" prot="public">LSD_Contract::Managers::IFlightManager</innerclass>
+    <innernamespace refid="namespace_l_s_d___contract">LSD_Contract</innernamespace>
+    <innernamespace refid="namespace_l_s_d___contract_1_1_managers">LSD_Contract::Managers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_l_s_d___contract" kindref="compound">LSD_Contract</ref>.<ref refid="namespace_l_s_d___contract_1_1_d_t_o" kindref="compound">DTO</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_s_d___contract_1_1_managers" kindref="compound">LSD_Contract.Managers</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager" kindref="compound">IFlightManager</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ICollection&lt;FlightDetail&gt;<sp/><ref refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" kindref="member">GetFlightDetails</ref>(ICollection&lt;FlightIdentifier&gt;<sp/>flights);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Managers/IFlightManager.cs"/>
+  </compounddef>
+</doxygen>

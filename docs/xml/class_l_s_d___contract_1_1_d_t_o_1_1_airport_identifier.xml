@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" kind="class" language="C#" prot="public">
+    <compoundname>LSD_Contract::DTO::AirportIdentifier</compoundname>
+    <derivedcompoundref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail" prot="public" virt="non-virtual">LSD_Contract.DTO.AirportDetail</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a906dc2c728d4bd24b7b899321e0a3e81" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.AirportIdentifier.IATACode</definition>
+        <argsstring></argsstring>
+        <name>IATACode</name>
+        <briefdescription>
+<para>Airport IATACode is identified by three letters, followed by three digits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/AirportIdentifier.cs" line="15" column="26" bodyfile="DTO/AirportIdentifier.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a21f2acd24240a377ebcaaa596db2e9c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LSD_Contract.DTO.AirportIdentifier.AirportIdentifier</definition>
+        <argsstring>(string iataCode)</argsstring>
+        <name>AirportIdentifier</name>
+        <param>
+          <type>string</type>
+          <declname>iataCode</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for <ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier" kindref="compound">AirportIdentifier</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iataCode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/AirportIdentifier.cs" line="21" column="16" bodyfile="DTO/AirportIdentifier.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to identify specific Airports </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LSD_Contract.DTO.AirportIdentifier</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier"/>
+      </node>
+      <node id="2">
+        <label>LSD_Contract.DTO.AirportDetail</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_detail"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="DTO/AirportIdentifier.cs" line="10" column="5" bodyfile="DTO/AirportIdentifier.cs" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a21f2acd24240a377ebcaaa596db2e9c9" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::AirportIdentifier</scope><name>AirportIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a906dc2c728d4bd24b7b899321e0a3e81" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::AirportIdentifier</scope><name>IATACode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

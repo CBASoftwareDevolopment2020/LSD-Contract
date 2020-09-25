@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier" kind="class" language="C#" prot="public">
+    <compoundname>LSD_Contract::DTO::BookingIdentifier</compoundname>
+    <derivedcompoundref refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" prot="public" virt="non-virtual">LSD_Contract.DTO.BookingDetail</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>long</type>
+        <definition>long LSD_Contract.DTO.BookingIdentifier.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>The unique Id of the booking </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/BookingIdentifier.cs" line="15" column="24" bodyfile="DTO/BookingIdentifier.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LSD_Contract.DTO.BookingIdentifier.BookingIdentifier</definition>
+        <argsstring>(long id)</argsstring>
+        <name>BookingIdentifier</name>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Constructor to create a specific booking identifier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/BookingIdentifier.cs" line="20" column="16" bodyfile="DTO/BookingIdentifier.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to identify specific Bookings </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LSD_Contract.DTO.BookingIdentifier</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier"/>
+      </node>
+      <node id="2">
+        <label>LSD_Contract.DTO.BookingDetail</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="DTO/BookingIdentifier.cs" line="10" column="5" bodyfile="DTO/BookingIdentifier.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>BookingIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

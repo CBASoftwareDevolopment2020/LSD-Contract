@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" kind="class" language="C#" prot="public">
+    <compoundname>LSD_Contract::DTO::CarrierIdentifier</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier_1a7ee3ff2b0418d9298be33e3e53582f8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.CarrierIdentifier.IATACode</definition>
+        <argsstring></argsstring>
+        <name>IATACode</name>
+        <briefdescription>
+<para>Two letter code used to identify Carriers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/CarrierIdentifier.cs" line="15" column="23" bodyfile="DTO/CarrierIdentifier.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier_1ab4a8b1f3c88bdda9d9956a6551a1856d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LSD_Contract.DTO.CarrierIdentifier.CarrierIdentifier</definition>
+        <argsstring>(string iataCode)</argsstring>
+        <name>CarrierIdentifier</name>
+        <param>
+          <type>string</type>
+          <declname>iataCode</declname>
+        </param>
+        <briefdescription>
+<para>Class used to identify specific carriers </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iataCode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/CarrierIdentifier.cs" line="20" column="16" bodyfile="DTO/CarrierIdentifier.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to identify specific carriers </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DTO/CarrierIdentifier.cs" line="10" column="5" bodyfile="DTO/CarrierIdentifier.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier_1ab4a8b1f3c88bdda9d9956a6551a1856d" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::CarrierIdentifier</scope><name>CarrierIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier_1a7ee3ff2b0418d9298be33e3e53582f8f" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::CarrierIdentifier</scope><name>IATACode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

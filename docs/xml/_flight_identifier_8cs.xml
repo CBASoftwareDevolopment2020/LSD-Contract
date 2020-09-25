@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_flight_identifier_8cs" kind="file" language="C#">
+    <compoundname>FlightIdentifier.cs</compoundname>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier" prot="public">LSD_Contract::DTO::FlightIdentifier</innerclass>
+    <innernamespace refid="namespace_l_s_d___contract">LSD_Contract</innernamespace>
+    <innernamespace refid="namespace_l_s_d___contract_1_1_d_t_o">LSD_Contract::DTO</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_s_d___contract_1_1_d_t_o" kindref="compound">LSD_Contract.DTO</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier" kindref="compound">FlightIdentifier</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1a34884a223c0eb6d4b418e239e65c2d1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" kindref="compound">CarrierIdentifier</ref><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1a34884a223c0eb6d4b418e239e65c2d1b" kindref="member">FlightCarrierIdentifier</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="19" refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1adb76dc9d4f046ef6388f748af0a7711b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1adb76dc9d4f046ef6388f748af0a7711b" kindref="member">FlightNumber</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="25" refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1ab9646a90432071444d025039c2dacef1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1ab9646a90432071444d025039c2dacef1" kindref="member">FlightIdentifier</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>flightNumber,<sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" kindref="compound">CarrierIdentifier</ref><sp/>flightCarrierIdentifier)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1adb76dc9d4f046ef6388f748af0a7711b" kindref="member">FlightNumber</ref><sp/>=<sp/>flightNumber;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1a34884a223c0eb6d4b418e239e65c2d1b" kindref="member">FlightCarrierIdentifier</ref><sp/>=<sp/>flightCarrierIdentifier;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DTO/FlightIdentifier.cs"/>
+  </compounddef>
+</doxygen>

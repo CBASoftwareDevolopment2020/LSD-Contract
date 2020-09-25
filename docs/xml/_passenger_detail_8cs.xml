@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_passenger_detail_8cs" kind="file" language="C#">
+    <compoundname>PassengerDetail.cs</compoundname>
+    <innerclass refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" prot="public">LSD_Contract::DTO::PassengerDetail</innerclass>
+    <innernamespace refid="namespace_l_s_d___contract">LSD_Contract</innernamespace>
+    <innernamespace refid="namespace_l_s_d___contract_1_1_d_t_o">LSD_Contract::DTO</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_s_d___contract_1_1_d_t_o" kindref="compound">LSD_Contract.DTO</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" kindref="compound">PassengerDetail</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" kindref="member">Name</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a910824671504ac5b26b8553d0d792f6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a910824671504ac5b26b8553d0d792f6d" kindref="member">Email</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1ac02c5db553698cafb5059b399f8e3471" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1ac02c5db553698cafb5059b399f8e3471" kindref="member">PassengerDetail</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>email)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" kindref="member">Name</ref><sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a910824671504ac5b26b8553d0d792f6d" kindref="member">Email</ref><sp/>=<sp/>email;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DTO/PassengerDetail.cs"/>
+  </compounddef>
+</doxygen>

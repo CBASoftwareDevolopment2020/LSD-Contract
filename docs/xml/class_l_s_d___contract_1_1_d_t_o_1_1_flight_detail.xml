@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail" kind="class" language="C#" prot="public">
+    <compoundname>LSD_Contract::DTO::FlightDetail</compoundname>
+    <basecompoundref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier" prot="public" virt="non-virtual">LSD_Contract.DTO.FlightIdentifier</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a79657d5b40a2511caf63227a2bba1c80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime LSD_Contract.DTO.FlightDetail.DepartureTime</definition>
+        <argsstring></argsstring>
+        <name>DepartureTime</name>
+        <briefdescription>
+<para>Departure datetime of the flight </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="12" column="25" bodyfile="DTO/FlightDetail.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a67198c6e662838557d5a9f95e20561eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime LSD_Contract.DTO.FlightDetail.ArrivalTime</definition>
+        <argsstring></argsstring>
+        <name>ArrivalTime</name>
+        <briefdescription>
+<para>Arrival datetime of the flight </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="16" column="25" bodyfile="DTO/FlightDetail.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1af0f49aed4ddf2a400687d62258afa7e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int LSD_Contract.DTO.FlightDetail.SeatCount</definition>
+        <argsstring></argsstring>
+        <name>SeatCount</name>
+        <briefdescription>
+<para>The number of available seats on the flight </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="20" column="20" bodyfile="DTO/FlightDetail.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1afbb859b1d31c52810801a653a11a50a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int LSD_Contract.DTO.FlightDetail.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <briefdescription>
+<para>Price in euros </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="24" column="20" bodyfile="DTO/FlightDetail.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a422ec0ca9b520c82c549dde3b9fc260d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.FlightDetail.GetFlightNumber</definition>
+        <argsstring></argsstring>
+        <name>GetFlightNumber</name>
+        <initializer>=&gt; <ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1a34884a223c0eb6d4b418e239e65c2d1b" kindref="member">FlightCarrierIdentifier</ref> + <ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1adb76dc9d4f046ef6388f748af0a7711b" kindref="member">FlightNumber</ref></initializer>
+        <briefdescription>
+<para>Returns the full code used to identify a Flight. It consists of the carrier code followed by three digits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="28" column="23" bodyfile="DTO/FlightDetail.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1ace8add90e9aa1dfbcbb3ffa0cc28fb03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LSD_Contract.DTO.FlightDetail.FlightDetail</definition>
+        <argsstring>(DateTime departureTime, DateTime arrivalTime, int seatCount, int price, string flightNumber, CarrierIdentifier flightCarrierIdentifier)</argsstring>
+        <name>FlightDetail</name>
+        <param>
+          <type>DateTime</type>
+          <declname>departureTime</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>arrivalTime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seatCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>flightNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" kindref="compound">CarrierIdentifier</ref></type>
+          <declname>flightCarrierIdentifier</declname>
+        </param>
+        <briefdescription>
+<para>An instance of the flight </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>departureTime</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arrivalTime</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seatCount</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flightNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flightCarrierIdentifier</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DTO/FlightDetail.cs" line="39" column="16" bodyfile="DTO/FlightDetail.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FlightIdentifier</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier"/>
+      </node>
+      <node id="1">
+        <label>LSD_Contract.DTO.FlightDetail</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FlightIdentifier</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier"/>
+      </node>
+      <node id="1">
+        <label>LSD_Contract.DTO.FlightDetail</label>
+        <link refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DTO/FlightDetail.cs" line="7" column="5" bodyfile="DTO/FlightDetail.cs" bodystart="8" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a67198c6e662838557d5a9f95e20561eb" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>ArrivalTime</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a79657d5b40a2511caf63227a2bba1c80" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>DepartureTime</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1a34884a223c0eb6d4b418e239e65c2d1b" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>FlightCarrierIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1ace8add90e9aa1dfbcbb3ffa0cc28fb03" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>FlightDetail</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1ab9646a90432071444d025039c2dacef1" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>FlightIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier_1adb76dc9d4f046ef6388f748af0a7711b" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>FlightNumber</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1a422ec0ca9b520c82c549dde3b9fc260d" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>GetFlightNumber</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1afbb859b1d31c52810801a653a11a50a8" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>Price</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail_1af0f49aed4ddf2a400687d62258afa7e6" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::FlightDetail</scope><name>SeatCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
