@@ -21,7 +21,7 @@
 <parametername>flights</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The list of flights you wish to get details from</para>
+<para>The list of flights you wish to get details from.</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -33,15 +33,70 @@
         </inbodydescription>
         <location file="Managers/IFlightManager.cs" line="18" column="21"/>
       </memberdef>
+      <memberdef kind="function" id="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1a9a1995c9e3ee3106c30420a4823efcc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ICollection&lt; <ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail" kindref="compound">FlightDetail</ref> &gt;</type>
+        <definition>ICollection&lt;FlightDetail&gt; LSD_Contract.Managers.IFlightManager.GetSchedule</definition>
+        <argsstring>(string IATAcode1, string IATAcode2, DateTime date)</argsstring>
+        <name>GetSchedule</name>
+        <param>
+          <type>string</type>
+          <declname>IATAcode1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>IATAcode2</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Returns all flights between two airports on a given day. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>IATAcode1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The IATACode airport code of the first airport.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IATAcode2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The IATACode airport code of the second airport.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The date of the flights your wish to see.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ICollection of FlightDetails</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Managers/IFlightManager.cs" line="27" column="21"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
 <para>An interface for all Flight related endpoints. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Managers/IFlightManager.cs" line="11" column="15" bodyfile="Managers/IFlightManager.cs" bodystart="12" bodyend="20"/>
+    <location file="Managers/IFlightManager.cs" line="11" column="15" bodyfile="Managers/IFlightManager.cs" bodystart="12" bodyend="28"/>
     <listofallmembers>
       <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" prot="public" virt="non-virtual"><scope>LSD_Contract::Managers::IFlightManager</scope><name>GetFlightDetails</name></member>
+      <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1a9a1995c9e3ee3106c30420a4823efcc7" prot="public" virt="non-virtual"><scope>LSD_Contract::Managers::IFlightManager</scope><name>GetSchedule</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

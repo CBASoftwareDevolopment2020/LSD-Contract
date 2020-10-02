@@ -9,14 +9,13 @@
     <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_airport_identifier_1a21f2acd24240a377ebcaaa596db2e9c9" kind="function"><name>AirportIdentifier</name></member>
   </compound>
   <compound refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" kind="class"><name>LSD_Contract::DTO::BookingDetail</name>
-    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a956b226cc896bfbe30b520698847fe09" kind="property"><name>PassengerNameRecord</name></member>
     <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a694b91f5c3b32ade666a0061c705e520" kind="property"><name>ETicketIdentification</name></member>
     <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1adf1686b7ce5b7e509cf70a2e001e5947" kind="property"><name>Passengers</name></member>
-    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a2e2dbd3e32cb6129240cf4e053d98561" kind="function"><name>BookingDetail</name></member>
+    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a34bf1209c44527c3c1b712387d8103b3" kind="function"><name>BookingDetail</name></member>
   </compound>
   <compound refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier" kind="class"><name>LSD_Contract::DTO::BookingIdentifier</name>
-    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" kind="property"><name>Id</name></member>
-    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" kind="function"><name>BookingIdentifier</name></member>
+    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a44a66b409f71c0d6fb9ecd8fee455d17" kind="property"><name>PassengerNameRecord</name></member>
+    <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1aa0f0fe3b3638bf8ae454b1d685455c62" kind="function"><name>BookingIdentifier</name></member>
   </compound>
   <compound refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier" kind="class"><name>LSD_Contract::DTO::CarrierIdentifier</name>
     <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_carrier_identifier_1a7ee3ff2b0418d9298be33e3e53582f8f" kind="property"><name>IATACode</name></member>
@@ -37,9 +36,12 @@
   </compound>
   <compound refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager" kind="interface"><name>LSD_Contract::Managers::IBookingManager</name>
     <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager_1a636e7cb2811961c2bfc81e46c2677049" kind="function"><name>MakeBooking</name></member>
+    <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager_1ab70c949fac90a962296391736c040e2c" kind="function"><name>CancelBooking</name></member>
+    <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager_1af5f61810c7290a8c9bba5b127be48d19" kind="function"><name>SeeBooking</name></member>
   </compound>
   <compound refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager" kind="interface"><name>LSD_Contract::Managers::IFlightManager</name>
     <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" kind="function"><name>GetFlightDetails</name></member>
+    <member refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1a9a1995c9e3ee3106c30420a4823efcc7" kind="function"><name>GetSchedule</name></member>
   </compound>
   <compound refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" kind="class"><name>LSD_Contract::DTO::PassengerDetail</name>
     <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail_1a1e11d1c5a39100bf05c191295ff88eef" kind="property"><name>Name</name></member>
@@ -90,6 +92,10 @@
   <compound refid="_l_s_d___contract_8csproj_8_file_list_absolute_8txt" kind="file"><name>LSD_Contract.csproj.FileListAbsolute.txt</name>
   </compound>
   <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
   </compound>
   <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
   </compound>

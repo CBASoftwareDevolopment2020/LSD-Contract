@@ -21,8 +21,9 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="18" refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ICollection&lt;FlightDetail&gt;<sp/><ref refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1aebeed0ffac6658d2b7b711037fcc6bd3" kindref="member">GetFlightDetails</ref>(ICollection&lt;FlightIdentifier&gt;<sp/>flights);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27" refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1a9a1995c9e3ee3106c30420a4823efcc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ICollection&lt;FlightDetail&gt;<sp/><ref refid="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager_1a9a1995c9e3ee3106c30420a4823efcc7" kindref="member">GetSchedule</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>IATAcode1,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>IATAcode2,<sp/>DateTime<sp/>date);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Managers/IFlightManager.cs"/>
   </compounddef>

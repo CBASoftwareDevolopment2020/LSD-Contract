@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "LSD_contract", "index.html", [
+    [ "README", "md__r_e_a_d_m_e.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],

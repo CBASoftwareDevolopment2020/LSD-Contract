@@ -12,14 +12,14 @@ namespace LSD_Contract.DTO
         /// <summary>
         /// The unique Id of the booking
         /// </summary>
-        protected long Id { get; private set; }
+        protected string PassengerNameRecord { get; private set; }
         /// <summary>
         /// Constructor to create a specific booking identifier.
         /// </summary>
-        /// <param name="id"><inheritdoc cref="Id"/></param>
-        public BookingIdentifier(long id)
+        /// <param name="PassengerNameRecord">A unique combination of numbers from the English alphabet and numbers, there is always six alphanumeric characters and the first can’t be a number.P</param>
+        public BookingIdentifier(string PassengerNameRecord)
         {
-            Id = id;
+            this.PassengerNameRecord = PassengerNameRecord;
         }
     }
 }

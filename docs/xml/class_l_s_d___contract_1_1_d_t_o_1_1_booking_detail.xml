@@ -4,20 +4,6 @@
     <compoundname>LSD_Contract::DTO::BookingDetail</compoundname>
     <basecompoundref refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier" prot="public" virt="non-virtual">LSD_Contract.DTO.BookingIdentifier</basecompoundref>
       <sectiondef kind="property">
-      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a956b226cc896bfbe30b520698847fe09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>string</type>
-        <definition>string LSD_Contract.DTO.BookingDetail.PassengerNameRecord</definition>
-        <argsstring></argsstring>
-        <name>PassengerNameRecord</name>
-        <briefdescription>
-<para>Single unique value to identify all passengers associated to the booking. It should consist of six alphanumeric characters and the first can&apos;t be a number. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="DTO/BookingDetail.cs" line="15" column="23" bodyfile="DTO/BookingDetail.cs" bodystart="15" bodyend="15"/>
-      </memberdef>
       <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a694b91f5c3b32ade666a0061c705e520" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>string</type>
         <definition>string LSD_Contract.DTO.BookingDetail.ETicketIdentification</definition>
@@ -30,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="DTO/BookingDetail.cs" line="19" column="23" bodyfile="DTO/BookingDetail.cs" bodystart="19" bodyend="19"/>
+        <location file="DTO/BookingDetail.cs" line="16" column="23" bodyfile="DTO/BookingDetail.cs" bodystart="16" bodyend="16"/>
       </memberdef>
       <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1adf1686b7ce5b7e509cf70a2e001e5947" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>ICollection&lt; <ref refid="class_l_s_d___contract_1_1_d_t_o_1_1_passenger_detail" kindref="compound">PassengerDetail</ref> &gt;</type>
@@ -44,19 +30,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="DTO/BookingDetail.cs" line="23" column="28" bodyfile="DTO/BookingDetail.cs" bodystart="23" bodyend="23"/>
+        <location file="DTO/BookingDetail.cs" line="20" column="28" bodyfile="DTO/BookingDetail.cs" bodystart="20" bodyend="20"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a2e2dbd3e32cb6129240cf4e053d98561" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a34bf1209c44527c3c1b712387d8103b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>LSD_Contract.DTO.BookingDetail.BookingDetail</definition>
-        <argsstring>(string passengerNameRecord, string eTicketIdentification, ICollection&lt; PassengerDetail &gt; passengers, long id)</argsstring>
+        <argsstring>(string eTicketIdentification, ICollection&lt; PassengerDetail &gt; passengers, long id, string PassengerNameRecord)</argsstring>
         <name>BookingDetail</name>
-        <param>
-          <type>string</type>
-          <declname>passengerNameRecord</declname>
-        </param>
         <param>
           <type>string</type>
           <declname>eTicketIdentification</declname>
@@ -69,18 +51,15 @@
           <type>long</type>
           <declname>id</declname>
         </param>
+        <param>
+          <type>string</type>
+          <declname>PassengerNameRecord</declname>
+        </param>
         <briefdescription>
 <para>Constructor to create an instance of a detailed booking. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>passengerNameRecord</parametername>
-</parameternamelist>
-<parameterdescription>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
 <parameternamelist>
 <parametername>eTicketIdentification</parametername>
 </parameternamelist>
@@ -101,12 +80,19 @@
 <parameterdescription>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PassengerNameRecord</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
 </parameterlist>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="DTO/BookingDetail.cs" line="33" column="16" bodyfile="DTO/BookingDetail.cs" bodystart="33" bodyend="38"/>
+        <location file="DTO/BookingDetail.cs" line="30" column="16" bodyfile="DTO/BookingDetail.cs" bodystart="30" bodyend="34"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -138,13 +124,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="DTO/BookingDetail.cs" line="10" column="5" bodyfile="DTO/BookingDetail.cs" bodystart="11" bodyend="39"/>
+    <location file="DTO/BookingDetail.cs" line="10" column="5" bodyfile="DTO/BookingDetail.cs" bodystart="11" bodyend="35"/>
     <listofallmembers>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a2e2dbd3e32cb6129240cf4e053d98561" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>BookingDetail</name></member>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>BookingIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a34bf1209c44527c3c1b712387d8103b3" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>BookingDetail</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1aa0f0fe3b3638bf8ae454b1d685455c62" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>BookingIdentifier</name></member>
       <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a694b91f5c3b32ade666a0061c705e520" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>ETicketIdentification</name></member>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>Id</name></member>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1a956b226cc896bfbe30b520698847fe09" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>PassengerNameRecord</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a44a66b409f71c0d6fb9ecd8fee455d17" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>PassengerNameRecord</name></member>
       <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail_1adf1686b7ce5b7e509cf70a2e001e5947" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingDetail</scope><name>Passengers</name></member>
     </listofallmembers>
   </compounddef>

@@ -100,12 +100,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a636e7cb2811961c2bfc81e46c2677049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail.html">BookingDetail</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#a636e7cb2811961c2bfc81e46c2677049">MakeBooking</a> (<a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail.html">BookingDetail</a> booking)</td></tr>
 <tr class="memdesc:a636e7cb2811961c2bfc81e46c2677049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a booking with the provided booking details.  <a href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#a636e7cb2811961c2bfc81e46c2677049">More...</a><br /></td></tr>
 <tr class="separator:a636e7cb2811961c2bfc81e46c2677049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70c949fac90a962296391736c040e2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#ab70c949fac90a962296391736c040e2c">CancelBooking</a> (<a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a> PassengerNameRecord)</td></tr>
+<tr class="memdesc:ab70c949fac90a962296391736c040e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a booking based on a Passenger Name Record.  <a href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#ab70c949fac90a962296391736c040e2c">More...</a><br /></td></tr>
+<tr class="separator:ab70c949fac90a962296391736c040e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f61810c7290a8c9bba5b127be48d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail.html">BookingDetail</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#af5f61810c7290a8c9bba5b127be48d19">SeeBooking</a> (<a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a> PassengerNameRecord)</td></tr>
+<tr class="memdesc:af5f61810c7290a8c9bba5b127be48d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a booking given the Passenger Name Record.  <a href="interface_l_s_d___contract_1_1_managers_1_1_i_booking_manager.html#af5f61810c7290a8c9bba5b127be48d19">More...</a><br /></td></tr>
+<tr class="separator:af5f61810c7290a8c9bba5b127be48d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface for all Flight related endpoints. </p>
 
 <p class="definition">Definition at line <a class="el" href="_i_booking_manager_8cs_source.html#l00011">11</a> of file <a class="el" href="_i_booking_manager_8cs_source.html">IBookingManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab70c949fac90a962296391736c040e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70c949fac90a962296391736c040e2c">&#9670;&nbsp;</a></span>CancelBooking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a> LSD_Contract.Managers.IBookingManager.CancelBooking </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a>&#160;</td>
+          <td class="paramname"><em>PassengerNameRecord</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cancels a booking based on a Passenger Name Record. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PassengerNameRecord</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A BookingIdentifier of the cancelled booking.</dd></dl>
+
+</div>
+</div>
 <a id="a636e7cb2811961c2bfc81e46c2677049"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a636e7cb2811961c2bfc81e46c2677049">&#9670;&nbsp;</a></span>MakeBooking()</h2>
 
@@ -130,6 +163,33 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>BookingDetail of the created booking.</dd></dl>
+
+</div>
+</div>
+<a id="af5f61810c7290a8c9bba5b127be48d19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f61810c7290a8c9bba5b127be48d19">&#9670;&nbsp;</a></span>SeeBooking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail.html">BookingDetail</a> LSD_Contract.Managers.IBookingManager.SeeBooking </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier.html">BookingIdentifier</a>&#160;</td>
+          <td class="paramname"><em>PassengerNameRecord</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves a booking given the Passenger Name Record. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PassengerNameRecord</td><td>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A BookingDetail with booking information.</dd></dl>
 
 </div>
 </div>

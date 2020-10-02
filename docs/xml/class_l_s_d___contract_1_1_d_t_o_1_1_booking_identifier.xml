@@ -4,11 +4,11 @@
     <compoundname>LSD_Contract::DTO::BookingIdentifier</compoundname>
     <derivedcompoundref refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_detail" prot="public" virt="non-virtual">LSD_Contract.DTO.BookingDetail</derivedcompoundref>
       <sectiondef kind="property">
-      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>long</type>
-        <definition>long LSD_Contract.DTO.BookingIdentifier.Id</definition>
+      <memberdef kind="property" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a44a66b409f71c0d6fb9ecd8fee455d17" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LSD_Contract.DTO.BookingIdentifier.PassengerNameRecord</definition>
         <argsstring></argsstring>
-        <name>Id</name>
+        <name>PassengerNameRecord</name>
         <briefdescription>
 <para>The unique Id of the booking </para>
         </briefdescription>
@@ -16,18 +16,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="DTO/BookingIdentifier.cs" line="15" column="24" bodyfile="DTO/BookingIdentifier.cs" bodystart="15" bodyend="15"/>
+        <location file="DTO/BookingIdentifier.cs" line="15" column="26" bodyfile="DTO/BookingIdentifier.cs" bodystart="15" bodyend="15"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1aa0f0fe3b3638bf8ae454b1d685455c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>LSD_Contract.DTO.BookingIdentifier.BookingIdentifier</definition>
-        <argsstring>(long id)</argsstring>
+        <argsstring>(string PassengerNameRecord)</argsstring>
         <name>BookingIdentifier</name>
         <param>
-          <type>long</type>
-          <declname>id</declname>
+          <type>string</type>
+          <declname>PassengerNameRecord</declname>
         </param>
         <briefdescription>
 <para>Constructor to create a specific booking identifier. </para>
@@ -35,9 +35,10 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>id</parametername>
+<parametername>PassengerNameRecord</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>A unique combination of numbers from the English alphabet and numbers, there is always six alphanumeric characters and the first can’t be a number.P</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -67,8 +68,8 @@
     </inheritancegraph>
     <location file="DTO/BookingIdentifier.cs" line="10" column="5" bodyfile="DTO/BookingIdentifier.cs" bodystart="11" bodyend="24"/>
     <listofallmembers>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1ad446656f6b4ee7d22f36281c9395dd85" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>BookingIdentifier</name></member>
-      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a7c7a8eecb07723fa168904e005530163" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>Id</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1aa0f0fe3b3638bf8ae454b1d685455c62" prot="public" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>BookingIdentifier</name></member>
+      <member refid="class_l_s_d___contract_1_1_d_t_o_1_1_booking_identifier_1a44a66b409f71c0d6fb9ecd8fee455d17" prot="protected" virt="non-virtual"><scope>LSD_Contract::DTO::BookingIdentifier</scope><name>PassengerNameRecord</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -100,6 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aebeed0ffac6658d2b7b711037fcc6bd3"><td class="memItemLeft" align="right" valign="top">ICollection&lt; <a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail.html">FlightDetail</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager.html#aebeed0ffac6658d2b7b711037fcc6bd3">GetFlightDetails</a> (ICollection&lt; <a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_flight_identifier.html">FlightIdentifier</a> &gt; flights)</td></tr>
 <tr class="memdesc:aebeed0ffac6658d2b7b711037fcc6bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of flight details.  <a href="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager.html#aebeed0ffac6658d2b7b711037fcc6bd3">More...</a><br /></td></tr>
 <tr class="separator:aebeed0ffac6658d2b7b711037fcc6bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1995c9e3ee3106c30420a4823efcc7"><td class="memItemLeft" align="right" valign="top">ICollection&lt; <a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail.html">FlightDetail</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager.html#a9a1995c9e3ee3106c30420a4823efcc7">GetSchedule</a> (string IATAcode1, string IATAcode2, DateTime date)</td></tr>
+<tr class="memdesc:a9a1995c9e3ee3106c30420a4823efcc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all flights between two airports on a given day.  <a href="interface_l_s_d___contract_1_1_managers_1_1_i_flight_manager.html#a9a1995c9e3ee3106c30420a4823efcc7">More...</a><br /></td></tr>
+<tr class="separator:a9a1995c9e3ee3106c30420a4823efcc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface for all Flight related endpoints. </p>
@@ -125,7 +128,52 @@ Public Member Functions</h2></td></tr>
 <p>Get a list of flight details. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">flights</td><td>The list of flights you wish to get details from</td></tr>
+    <tr><td class="paramname">flights</td><td>The list of flights you wish to get details from.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ICollection of FlightDetails</dd></dl>
+
+</div>
+</div>
+<a id="a9a1995c9e3ee3106c30420a4823efcc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1995c9e3ee3106c30420a4823efcc7">&#9670;&nbsp;</a></span>GetSchedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICollection&lt;<a class="el" href="class_l_s_d___contract_1_1_d_t_o_1_1_flight_detail.html">FlightDetail</a>&gt; LSD_Contract.Managers.IFlightManager.GetSchedule </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>IATAcode1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>IATAcode2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>date</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all flights between two airports on a given day. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">IATAcode1</td><td>The IATACode airport code of the first airport.</td></tr>
+    <tr><td class="paramname">IATAcode2</td><td>The IATACode airport code of the second airport.</td></tr>
+    <tr><td class="paramname">date</td><td>The date of the flights your wish to see.</td></tr>
   </table>
   </dd>
 </dl>
