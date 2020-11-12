@@ -8,7 +8,7 @@ namespace LSD_Contract.Managers
     /// <summary>
     /// An interface for all Flight related endpoints.
     /// </summary>
-    interface IBookingManager
+    public interface IBookingManager
     {
         /// <summary>
         /// Make a booking with the provided booking details.

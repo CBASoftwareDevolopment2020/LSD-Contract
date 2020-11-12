@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// Class used to identify unique flights
     /// </summary>
-    class FlightIdentifier
+    public class FlightIdentifier
     {
         /// <summary>
         /// flightCarrierIdentifier

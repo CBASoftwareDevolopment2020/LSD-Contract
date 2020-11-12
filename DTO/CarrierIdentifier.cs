@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// Class used to identify specific carriers
     /// </summary>
-    class CarrierIdentifier
+    public class CarrierIdentifier
     {
         /// <summary>
         /// Two letter code used to identify Carriers

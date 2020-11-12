@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSD_Contract.DTO
 {
-    class FlightDetail : FlightIdentifier
+    public class FlightDetail : FlightIdentifier
     {
         /// <summary>
         /// Departure datetime of the flight

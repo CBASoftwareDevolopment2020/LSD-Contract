@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// AirportDTO with all attributes
     /// </summary>
-    class AirportDetail : AirportIdentifier
+    public class AirportDetail : AirportIdentifier
     {
         /// <summary>
         /// Timezone based on GMT values

@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// Class used to identify specific Airports
     /// </summary>
-    class AirportIdentifier
+    public class AirportIdentifier
     {
         /// <summary>
         /// Airport IATACode is identified by three letters, followed by three digits.

@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// Class for creating an instance of a detailed booking.
     /// </summary>
-    class BookingDetail : BookingIdentifier
+    public class BookingDetail : BookingIdentifier
     {
 
         /// <summary>

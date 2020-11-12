@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSD_Contract.DTO
 {
-    class PassengerDetail
+    public class PassengerDetail
     {
         /// <summary>
         /// Passenger name is in all capital letters, as written in their passport

@@ -8,7 +8,7 @@ namespace LSD_Contract.Managers
     /// <summary>
     /// An interface for all Flight related endpoints.
     /// </summary>
-    interface IFlightManager
+    public interface IFlightManager
     {
         /// <summary>
         /// Get a list of flight details.

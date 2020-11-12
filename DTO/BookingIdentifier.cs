@@ -7,7 +7,7 @@ namespace LSD_Contract.DTO
     /// <summary>
     /// Class used to identify specific Bookings
     /// </summary>
-    class BookingIdentifier
+    public class BookingIdentifier
     {
         /// <summary>
         /// The unique Id of the booking
